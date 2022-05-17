@@ -6,11 +6,18 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Leaves</title>
 </head>
+<style>
+body { 
+  background-image: url("3.jpg");
+  background-repeat: no-repeat;
+background-size:  1380px 730px;;
+}
+</style>
 <body>
 <center>
-	<table border="5">
+	<table border="5" style="color: MistyRose" >
 		<tr>
 			<th>leave Id</th>
 			<th>no Of Days</th>

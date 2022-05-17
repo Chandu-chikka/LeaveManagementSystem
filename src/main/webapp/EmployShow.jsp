@@ -5,11 +5,19 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Employee Show</title>
+<style>
+body {
+    
+  background-image: url("3.jpg");
+  background-repeat: no-repeat;
+background-size:  cover;
+}
+</style>
 </head>
 <body>
 	<center>
-	<table border="5" >
+	<table border="5"style="color:MistyRose" >
 		<tr>
 			<th>Employ ID</th>
 			<th>Employ Name</th>

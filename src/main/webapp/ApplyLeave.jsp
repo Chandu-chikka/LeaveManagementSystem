@@ -7,9 +7,18 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title></title>
+<style>
+body {
+	
+  background-image: url("3.jpg");
+  background-repeat: no-repeat;
+  background-size:  1380px 730px;;
+  color:"MistyRose";
+}
+</style>
 </head>
-<body>
+<body style="color:MistyRose">
 	<%
 		LeaveDetails leaveDetails = new LeaveDetails();
 		leaveDetails.setEmpId(Integer.parseInt(request.getParameter("empId")));
@@ -18,7 +27,6 @@
 		leaveDetails.setLeaveStartDate(leaveStartDate);
 		leaveDetails.setLeaveEndDate(leaveEndDate);
 		leaveDetails.setLeaveReason(request.getParameter("leaveReason"));
-		
 		LeaveDetailsDAO dao = new LeaveDetailsDAO();
 		out.println(dao.applyLeave(leaveDetails));
 	%>
